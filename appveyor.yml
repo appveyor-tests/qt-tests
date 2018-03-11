@@ -1,5 +1,5 @@
 test_script:
 - dir C:\Qt\5.9
-- dir C:\Qt\5.10.0
+- dir C:\Qt\5.10
 
 build: off
