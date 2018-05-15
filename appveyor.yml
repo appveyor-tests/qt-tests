@@ -1,5 +1,9 @@
 test_script:
+- dir C:\Qt\5.6
+- dir C:\Qt\5.6.3
 - dir C:\Qt\5.9
+- dir C:\Qt\5.9.5
 - dir C:\Qt\5.10
+- dir C:\Qt\5.10.1
 
 build: off
