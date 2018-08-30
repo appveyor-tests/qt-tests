@@ -1,4 +1,6 @@
 test_script:
+- cd C:\Qt\5.11.1\msvc2017_64
+- dir Qt5WebEngine.dll /s
 - dir C:\Qt\5.6
 - dir C:\Qt\5.6.3
 - dir C:\Qt\5.9
