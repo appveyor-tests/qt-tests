@@ -7,6 +7,10 @@ test_script:
 - dir C:\Qt\5.9.5
 - dir C:\Qt\5.10
 - dir C:\Qt\5.10.1
+- dir C:\Qt\5.11
+- dir C:\Qt\5.11.1
 - dir C:\Qt\Tools
+
+- dir C:\Qt\5.11.1\msvc2015\bin
 
 build: off
