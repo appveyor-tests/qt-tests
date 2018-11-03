@@ -11,6 +11,6 @@ test_script:
 - dir C:\Qt\5.11.2
 - dir C:\Qt\Tools
 
-- dir C:\Qt\5.11.1\msvc2015\bin
+- dir C:\Qt\5.11.2\msvc2015\bin
 
 build: off
