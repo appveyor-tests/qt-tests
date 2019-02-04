@@ -8,7 +8,9 @@ test_script:
 - dir C:\Qt\5.10
 - dir C:\Qt\5.10.1
 - dir C:\Qt\5.11
-- dir C:\Qt\5.11.2
+- dir C:\Qt\5.11.3
+- dir C:\Qt\5.12
+- dir C:\Qt\5.12.1
 - dir C:\Qt\Tools
 
 - dir C:\Qt\5.11.2\msvc2015\bin
