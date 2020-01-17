@@ -6,7 +6,7 @@ test_script:
 - dir C:\Qt\5.6.3
 
 - dir C:\Qt\5.9
-- dir C:\Qt\5.9.8
+- dir C:\Qt\5.9.9
 
 - dir C:\Qt\5.10
 - dir C:\Qt\5.10.1
@@ -15,7 +15,7 @@ test_script:
 - dir C:\Qt\5.11.3
 
 - dir C:\Qt\5.12
-- dir C:\Qt\5.12.5
+- dir C:\Qt\5.12.6
 
 - dir C:\Qt\5.13
 - dir C:\Qt\5.13.2
