@@ -146,6 +146,7 @@ foreach($qt_dir in $qt_dirs.GetEnumerator()) {
     foreach($qt_ver in $qt_dir.Key) {
         foreach($qt_sub_dir in $qt_dir.Value) {
             $fullPath = "C:\Qt\$qt_ver\$qt_sub_dir"
+            Write-Host "$fullPath"
             if (-not (Test-Path $fullPath)) {
                 throw "$fullPath not found"
             }
