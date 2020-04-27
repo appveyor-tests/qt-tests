@@ -114,7 +114,7 @@ if ((test-path "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community") 
             "msvc2015"
             "msvc2017_64"
         )
-        @("5.12", "5.12.7") = @(
+        @("5.12", "5.12.8") = @(
             "mingw73_32"
             "mingw73_64"
             "msvc2017"
@@ -126,7 +126,7 @@ if ((test-path "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community") 
             "msvc2017"
             "msvc2017_64"
         )
-        @("5.14", "5.14.1", "latest") = @(
+        @("5.14", "5.14.2", "latest") = @(
             "mingw73_32"
             "mingw73_64"
             "msvc2017"
