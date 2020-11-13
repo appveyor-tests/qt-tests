@@ -145,7 +145,7 @@ if ((test-path "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community") 
             "mingw810_32"
             "mingw810_64"
             "QtCreator"
-            "QtInstallerFramework\3.2"
+            "QtInstallerFramework\4.0"
         )    
     }
 }
