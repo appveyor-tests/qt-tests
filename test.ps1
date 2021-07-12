@@ -114,12 +114,6 @@ if ((test-path "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community") 
             "msvc2015"
             "msvc2017_64"
         )
-        @("5.12", "5.12.10") = @(
-            "mingw73_32"
-            "mingw73_64"
-            "msvc2017"
-            "msvc2017_64"
-        )
         @("5.13", "5.13.2") = @(
             "mingw73_32"
             "mingw73_64"
@@ -138,7 +132,11 @@ if ((test-path "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community") 
             "msvc2019"
             "msvc2019_64"
         )
-        @("6.0", "6.0.1") = @(
+        @("6.0", "6.0.4") = @(
+            "mingw81_64"
+            "msvc2019_64"
+        )
+        @("6.1", "6.1.2") = @(
             "mingw81_64"
             "msvc2019_64"
         )        
