@@ -134,7 +134,7 @@ if ((test-path "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community") 
             "mingw81_64"
             "msvc2019_64"
         )
-        @("6.2", "6.2.0") = @(
+        @("6.2", "6.2.1") = @(
             "mingw81_64"
             "msvc2019_64"
         )        
