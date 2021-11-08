@@ -105,9 +105,10 @@ if (test-path "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community") {
     }
 }
 
-# VS 2019
+# VS 2019 or VS 2022
 if ((test-path "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community") -or
-    (test-path "C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview")) {
+    (test-path "C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview") -or
+    (test-path "C:\Program Files\Microsoft Visual Studio\2022\Community")) {
     $qt_dirs = @{
         @("5.9", "5.9.9") = @(
             "mingw53_32"
