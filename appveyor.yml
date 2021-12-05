@@ -1,4 +1,5 @@
 test_script:
+- dir C:\Qt\6.2
 - dir C:\Qt\tools\QtInstallerFramework
 - ps: .\test.ps1
 
