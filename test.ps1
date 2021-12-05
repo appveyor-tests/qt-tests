@@ -1,5 +1,12 @@
 $ErrorActionPreference = "Stop"
 
+Get-WmiObject Win32_LogicalDisk | Where-Object { $_.DriveType -eq "3" } | Select-Object SystemName, 
+@{ Name = "Drive" ; Expression = { ( $_.DeviceID ) } }, 
+@{ Name = "Size (GB)" ; Expression = { "{0:N1}" -f ( $_.Size / 1gb) } }, 
+@{ Name = "FreeSpace (GB)" ; Expression = { "{0:N1}" -f ( $_.Freespace / 1gb ) } }, 
+@{ Name = "PercentFree" ; Expression = { "{0:P1}" -f ( $_.FreeSpace / $_.Size ) } } |
+Format-Table -AutoSize | Out-String
+
 # VS 2015
 $qt_dirs = @{
     @("5.6", "5.6.3") = @(
@@ -136,7 +143,7 @@ if ((test-path "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community") 
             "msvc2019_64"
         )
         @("6.2", "6.2.2") = @(
-            "mingw81_64"
+            "mingw_64"
             "msvc2019_64"
         )        
         @("tools") = @(
@@ -145,6 +152,7 @@ if ((test-path "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community") 
             "mingw730_64"
             "mingw810_32"
             "mingw810_64"
+            "mingw900_64"
             "QtCreator"
             "QtInstallerFramework\4.2"
         )    
