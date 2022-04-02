@@ -148,7 +148,7 @@ if ((test-path "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community") 
             "mingw530_32"
             "mingw810_32"
             "mingw810_64"
-            "mingw900_64"
+            "mingw1120_64"
             "QtCreator"
             "QtInstallerFramework\4.3"
         )    
