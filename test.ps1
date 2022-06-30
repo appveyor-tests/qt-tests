@@ -128,25 +128,28 @@ if ((test-path "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community") 
             "msvc2019"
             "msvc2019_64"
         )
-        @("6.1", "6.1.3") = @(
-            "mingw81_64"
-            "msvc2019_64"
-        )
         @("6.2", "6.2.4") = @(
             "mingw_64"
             "msvc2019_64"
+            "msvc2019_arm64"
         )
-        @("6.3", "6.3.0") = @(
+        @("6.3", "6.3.1") = @(
             "mingw_64"
             "msvc2019_64"
+            "msvc2019_arm64"
         )
+        @("6.4", "6.4.0") = @(
+            "mingw_64"
+            "msvc2019_64"
+            "msvc2019_arm64"
+        )        
         @("tools") = @(
             "mingw530_32"
             "mingw810_32"
             "mingw810_64"
             "mingw1120_64"
             "QtCreator"
-            "QtInstallerFramework\4.3"
+            "QtInstallerFramework\4.4"
         )    
     }
 }
