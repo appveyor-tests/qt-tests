@@ -138,7 +138,7 @@ if ((test-path "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community") 
             "msvc2019_64"
             "msvc2019_arm64"
         )
-        @("6.4", "6.4.0") = @(
+        @("6.4", "6.4.2") = @(
             "mingw_64"
             "msvc2019_64"
             "msvc2019_arm64"
@@ -149,7 +149,7 @@ if ((test-path "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community") 
             "mingw810_64"
             "mingw1120_64"
             "QtCreator"
-            "QtInstallerFramework\4.4"
+            "QtInstallerFramework\4.5"
         )    
     }
 }
