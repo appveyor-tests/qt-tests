@@ -3,10 +3,10 @@ init:
   - ps: Start-Service MySQL80
 
 test_script:
-- "C:\\Program Files\\MySQL\\MySQL Server 8.0\\bin\\mysql" -u root -p'Password12!' -e 'DROP DATABASE IF EXISTS temp_CI'
-- dir C:\Qt\6.2
-- dir C:\Qt\tools
-- dir C:\Qt\tools\QtInstallerFramework
-- ps: .\test.ps1
+  - "C:\\Program Files\\MySQL\\MySQL Server 8.0\\bin\\mysql" -u root -p'Password12!' -e 'DROP DATABASE IF EXISTS temp_CI'
+  - dir C:\Qt\6.2
+  - dir C:\Qt\tools
+  - dir C:\Qt\tools\QtInstallerFramework
+  - ps: .\test.ps1
 
 build: off
