@@ -3,7 +3,9 @@ init:
   #- ps: Start-Service MySQL80
 services:
   - mysql
-  
+before_test: 
+  - cmd: |
+      "C:\Program Files\MySQL\MySQL Server 5.7\bin\mysql" -u root -p'Password12!' -e 'CREATE DATABASE temp_CI'
 test_script:
   - cmd: |
       "C:\Program Files\MySQL\MySQL Server 5.7\bin\mysql" -u root -p'Password12!' -e 'DROP DATABASE IF EXISTS temp_CI'
