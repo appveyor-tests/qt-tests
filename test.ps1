@@ -117,11 +117,11 @@ if ((test-path "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community") 
     (test-path "C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview") -or
     (test-path "C:\Program Files\Microsoft Visual Studio\2022\Community")) {
     $qt_dirs = @{
-        @("5.9", "5.9.9") = @(
-            "mingw53_32"
-            "msvc2015"
-            "msvc2017_64"
-        )
+        # @("5.9", "5.9.9") = @(
+        #     "mingw53_32"
+        #     "msvc2015"
+        #     "msvc2017_64"
+        # )
         @("5.15", "5.15.2", "latest") = @(
             "mingw81_32"
             "mingw81_64"
@@ -138,7 +138,7 @@ if ((test-path "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community") 
             "msvc2019_64"
             "msvc2019_arm64"
         ) 
-        @("6.6", "6.6.2") = @(
+        @("6.7", "6.7.0") = @(
             "mingw_64"
             "msvc2019_64"
             "msvc2019_arm64"
