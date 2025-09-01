@@ -5,7 +5,7 @@ image: Visual Studio 2019
 
 test_script:
 
-  - dir C:\Qt\6.2
+  - dir C:\Qt\6.5
   - dir C:\Qt\tools
   - dir C:\Qt\tools\QtInstallerFramework
   - ps: .\test.ps1
