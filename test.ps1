@@ -122,23 +122,28 @@ if ((test-path "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community") 
         #     "msvc2015"
         #     "msvc2017_64"
         # )
-        @("5.15", "5.15.2", "latest") = @(
-            "mingw81_32"
-            "mingw81_64"
-            "msvc2019"
-            "msvc2019_64"
-        )
-        @("6.2", "6.2.4") = @(
-            "mingw_64"
-            "msvc2019_64"
-            "msvc2019_arm64"
-        )
+        # @("5.15", "5.15.2", "latest") = @(
+        #     "mingw81_32"
+        #     "mingw81_64"
+        #     "msvc2019"
+        #     "msvc2019_64"
+        # )
+        # @("6.2", "6.2.4") = @(
+        #     "mingw_64"
+        #     "msvc2019_64"
+        #     "msvc2019_arm64"
+        # )
         @("6.5", "6.5.3") = @(
             "mingw_64"
             "msvc2019_64"
             "msvc2019_arm64"
         ) 
-        @("6.8", "6.8.1") = @(
+        @("6.8", "6.8.3") = @(
+            "mingw_64"
+            "msvc2022_64"
+            "msvc2022_arm64"
+        )
+        @("6.9", "6.9.2") = @(
             "mingw_64"
             "msvc2022_64"
             "msvc2022_arm64"
