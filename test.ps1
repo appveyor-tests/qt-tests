@@ -149,7 +149,7 @@ if ((test-path "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community") 
             "msvc2022_arm64"
         )
         @("tools") = @(
-            "mingw530_32"
+            #"mingw530_32"
             "mingw810_32"
             "mingw810_64"
             "mingw1120_64"
