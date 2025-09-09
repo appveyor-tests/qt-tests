@@ -150,12 +150,17 @@ if ((test-path "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community") 
         )
         @("tools") = @(
             #"mingw530_32"
+            # "mingw_64\Tools\mingw810_32"
+            # "mingw_64\Tools\mingw810_64"
+            # "mingw_64\Tools\mingw1120_64"
+            "QtCreator"
+            "QtInstallerFramework\4.7"
+        )
+        @("") = @(
             "mingw_64\Tools\mingw810_32"
             "mingw_64\Tools\mingw810_64"
             "mingw_64\Tools\mingw1120_64"
-            "QtCreator"
-            "QtInstallerFramework\4.7"
-        )    
+        )
     }
 }
 
