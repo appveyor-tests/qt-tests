@@ -99,10 +99,10 @@ if (test-path "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community") {
             "msvc2017_64"
         )
         @("tools") = @(
-            "mingw_64\Tools\mingw492_32"
-            "mingw_64\Tools\mingw530_32"
-            "mingw_64\Tools\mingw730_32"
-            "mingw_64\Tools\mingw730_64"
+            "mingw492_32"
+            "mingw530_32"
+            "mingw730_32"
+            "mingw730_64"
             "QtCreator"
             "QtInstallerFramework"
         )
@@ -150,9 +150,9 @@ if ((test-path "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community") 
         )
         @("tools") = @(
             #"mingw530_32"
-            "mingw810_32"
-            "mingw810_64"
-            "mingw1120_64"
+            "mingw_64\Tools\mingw810_32"
+            "mingw_64\Tools\mingw810_64"
+            "mingw_64\Tools\mingw1120_64"
             "QtCreator"
             "QtInstallerFramework\4.7"
         )    
