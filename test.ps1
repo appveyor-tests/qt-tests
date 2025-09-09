@@ -99,10 +99,10 @@ if (test-path "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community") {
             "msvc2017_64"
         )
         @("tools") = @(
-            "mingw492_32"
-            "mingw530_32"
-            "mingw730_32"
-            "mingw730_64"
+            "mingw_64\Tools\mingw492_32"
+            "mingw_64\Tools\mingw530_32"
+            "mingw_64\Tools\mingw730_32"
+            "mingw_64\Tools\mingw730_64"
             "QtCreator"
             "QtInstallerFramework"
         )
