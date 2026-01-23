@@ -164,6 +164,30 @@ if ((test-path "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community") 
     }
 }
 
+if (test-path "C:\Program Files\Microsoft Visual Studio\2026\Community") {
+    $qt_dirs = @{
+        @("6.8", "6.8.3") = @(
+            "mingw_64"
+            "msvc2022_64"
+            "msvc2022_arm64"
+        )
+        @("6.9", "6.9.3") = @(
+            "mingw_64"
+            "msvc2022_64"
+            "msvc2022_arm64"
+        )
+        @("tools") = @(
+            "QtCreator"
+            "QtInstallerFramework\4.7"
+        )
+        @("") = @(
+            "mingw_64\Tools\mingw810_32"
+            "mingw_64\Tools\mingw810_64"
+            "mingw_64\Tools\mingw1120_64"
+        )
+    }
+}
+
 foreach($qt_dir in $qt_dirs.GetEnumerator()) {
     foreach($qt_ver in $qt_dir.Key) {
         foreach($qt_sub_dir in $qt_dir.Value) {
