@@ -164,14 +164,14 @@ if ((test-path "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community") 
     }
 }
 
-if (test-path "C:\Program Files\Microsoft Visual Studio\2026\Community") {
+if (test-path "C:\Program Files\Microsoft Visual Studio\18\Community") {
     $qt_dirs = @{
         @("6.8", "6.8.3") = @(
             "mingw_64"
             "msvc2022_64"
             "msvc2022_arm64"
         )
-        @("6.9", "6.9.3") = @(
+        @("6.9", "6.9.2") = @(
             "mingw_64"
             "msvc2022_64"
             "msvc2022_arm64"
