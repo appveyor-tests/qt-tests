@@ -165,7 +165,7 @@ if ((test-path "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community") 
 }
 
 if (test-path "C:\Program Files\Microsoft Visual Studio\18\Community") {
-    $qt_dirs = @@{
+    $qt_dirs = @{
         @("6.10", "6.10.3") = @(
             ""
             "bin"
