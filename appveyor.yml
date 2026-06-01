@@ -3,10 +3,13 @@ image: vs2026-master
 build_cloud: bakery-hyperv-host-20
 
 init: 
- - ps: $blockRdp = $true; iex ((new-object net.webclient).DownloadString('https://raw.githubusercontent.com/appveyor/ci/master/scripts/enable-rdp.ps1'))
+ #- ps: $blockRdp = $true; iex ((new-object net.webclient).DownloadString('https://raw.githubusercontent.com/appveyor/ci/master/scripts/enable-rdp.ps1'))
 
 test_script:
-
+  - ps: Get-Item C:\Qt\6.10 | fl FullName,Attributes,Target,LinkType
+  - ps: Get-Item C:\Qt\6.11 | fl FullName,Attributes,Target,LinkType
+  - dir C:\Qt\6.10.3
+  - dir C:\Qt\6.11.1
   - dir C:\Qt\6.10
   - dir C:\Qt\tools
   - dir C:\Qt\tools\QtInstallerFramework
